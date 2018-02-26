@@ -1,0 +1,109 @@
+p{
+	color:red;
+	font-size:30px;
+}
+
+.listitem {
+color:purple;
+font-size:20px;
+}
+#background{
+	color:blue;
+}
+#button{
+	height:30px;
+	width:30px;
+	color:yellow;
+	border-radius:12px;
+}
+#header{
+	height:120px;
+	width:500px;
+	border:20px solid black;
+	background:#1a75ff;
+	margin-bottom:5px;	
+}
+.trivaqustion{
+	height:250px;
+	width:200px;
+	border:20px black;
+	padding-top:5px;
+}
+.list{
+	height:125px;
+	width:500px;
+#footer{
+	height:120px;
+	width:500px;
+	border:20px solid black;
+	background:#1a75ff;
+}
+.span{
+	color:green;
+	font-size: 40px;
+}
+#one{
+	height:150px;
+	width:150px;
+	background-color:green;
+	display:inline-block;
+	position:absolute;
+	z-index:1;
+}
+#two{
+	height:150px;
+	width:150px;
+	background-color:blue;
+	display:inline-block;
+	position:absolute;
+	z-index:2;
+}
+#three{
+	height:150px;
+	width:150px;
+	background-color:purple;
+	display:inline-block;
+	position:absolute;
+	position:relative;
+	left:25%;
+	top:750px;
+}
+#body{
+	height:2048;
+	position:relative;
+	top:750px;
+}
+#navitem{
+	list-style-type:none;
+	display:inline;
+	padding:10px;
+	color:yellow;
+}
+#navemenu{
+	width:1000px;
+	height:40px;
+	margin:auto;
+	border:2px black;
+}
+a:link{ 
+color:red;
+} 
+
+a:visited{ 
+color:blue;
+} 
+
+a:hover{ 
+color:purple;
+} 
+
+a:active{ 
+color:orange;
+}
+#rightside{
+	float:right;
+	width:50%;
+}
+#leftside{
+	width:50%;
+}

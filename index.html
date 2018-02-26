@@ -1,0 +1,84 @@
+<html> 
+<head>
+	<link type="text/css"rel="stylesheet" href="main.css" />
+	<title>Stem Website</title> 
+	<script>
+	function banner(){ 
+	var text = confirm("Are you sure you want to leave this page?"); 
+	return text; 
+	}
+	function answer(){ 
+var radio = document.getElementsByName("trivia"); 
+var selection = false; 
+var message = ""; 
+
+for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "kcr" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+		}
+	}
+	
+	</script>
+</head> 
+<body id="background">
+	<a href="http://bing.com" onclick="return banner()">
+	<center><header id="header"><center>Stem</center></header></center>
+	</a>
+	<nav>
+			<ul id="navmenu">
+				<li id="navitem" class="home"><a href="comingsoon.html">Home</a></li>
+				<li id="navitem" class="video"><a href="comingsoon.html">video</a></li>
+				<li id="navitem" class="games"><a href="comingsoon.html">games</a></li>	
+			</ul>
+	</nav>
+	<h1>Stem Website</h1>
+	<p>This is a <span class="span">website</span> that I am making for my stem class in <b>school</b>. I love to code and this is just one of the ways to do it and this happens to be my <i>favorite.</i> <u>I Hope I can move forward in my coding experiance</u></p>	
+	<div class="list" id="rightside">
+	<ol>
+		<li class="listitem">this is going to be about fly fishing</li>
+		<li class="listitem">It will have some hunting stuff to</li>
+		<li class="listitem">Last you will be able to buy your gear hear</li>
+	</ol>
+	</div>
+	<div id="leftside">
+	<video width"400px"height"300px" controls autoplay>
+	 <source src="http://www.w3schools.com/HTML/mov_bbb.mp4" type="video/mp4">
+	 	I am sorry the video is not working right now.
+	 	</video>
+	 	<iframe width="400px"height="300px"src="https://www.youtube.com/embed/3SO-XpbaycM?rel=0"frameboarder="0" allowfullscreen>
+
+	 	</iframe>
+	 	<audio width="200px"height="150px" controls autoplay>
+	 		<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+	 			Your browser does not support html5 audio
+	 	</audio>
+	<div class="trivaqustion">
+	<h2>Football trivia Qustion</h2
+		<p>Who has won the most super bowls.</p>
+		<form>
+			<div id="response"></div>
+			<input type="radio"name="Seattle Seahawks"value="0">Seattle Seahawks<br>
+			<input type="radio"name="New England Patriots"value="kcr">New England Patriots<br>
+			<input type="radio"name="Dallas cowboys"value="0">Dallas Cowboys<br>
+			<input type="radio"name="New York Gaints"value="0">New York Gaints<br>
+			<input type="button"value="click here"id="button" onclick"answer()">
+		</form>
+	</div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWUQ6Vo23wqTb2aW5R9dUMbSO2vuSx5hOeeaVBqze485gmAOv:https://get.pxhere.com/photo/river-fly-fishing-fish-montana-trout-organism-cutthroat-trout-coastal-cutthroat-trout-salmon-like-fish-bony-fish-1373014.jpg">
+<img src="https://media.defense.gov/2017/Jul/07/2001774786/780/780/0/170630-F-IS743-021.JPG">
+	<hr>
+<center>nick</center>
+<!--i fixed the link for section 2 but i had all ready moved on i was wondering if you would fix it in this submit-->
+<center><a href="https://www.amazon.com">amazon</a></center>
+	<center><footer id="footer"><center>Stem Website</center></footer></center>
+	</body> 
+</html>
